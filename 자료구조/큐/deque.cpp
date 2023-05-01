@@ -104,10 +104,10 @@ int main(){
     add_rear(&dq, 3);
     add_rear(&dq, 2);
 
-    std::cout << delete_front(&dq) << "\n";     // 1
-    std::cout << delete_rear(&dq) << "\n";                       // 2
-    std::cout << get_front(&dq) << "\n";                          // 3
-    std::cout << get_rear(&dq) << "\n";                       // 3
-    std::cout << delete_front(&dq) << "\n";                       // 1
-    std::cout << std::boolalpha << is_empty(&dq) << "\n";    // true
+    std::cout << delete_front(&dq) << "\n";                 // 1
+    std::cout << delete_rear(&dq) << "\n";                  // 2
+    std::cout << get_front(&dq) << "\n";                    // 3
+    std::cout << get_rear(&dq) << "\n";                     // 3
+    std::cout << delete_front(&dq) << "\n";                 // 3
+    std::cout << std::boolalpha << is_empty(&dq) << "\n";   // true
 }
